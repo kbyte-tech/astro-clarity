@@ -2,7 +2,7 @@
   "name": "@kbyte-tech/astro-clarity",
   "description": "Microsoft Clarity analytics component for Astro",
   "author": "Kbyte Tech",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "homepage": "https://github.com/kbyte-tech/astro-clarity#readme",
   "type": "module",
   "exports": {
