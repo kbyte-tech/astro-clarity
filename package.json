@@ -1,8 +1,8 @@
 {
   "name": "@kbyte-tech/astro-clarity",
-  "description": "Clarity analytics component for Astro",
+  "description": "Microsoft Clarity analytics component for Astro",
   "author": "Kbyte Tech",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "homepage": "https://github.com/kbyte-tech/astro-clarity#readme",
   "type": "module",
   "exports": {
@@ -24,8 +24,5 @@
   },
   "peerDependencies": {
     "astro": "^4.0.0 || ^5.0.0"
-  },
-  "dependencies": {
-    "@microsoft/clarity": "^1.0.0"
   }
 }
