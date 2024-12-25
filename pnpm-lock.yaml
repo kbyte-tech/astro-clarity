@@ -7,6 +7,10 @@ settings:
 importers:
 
   .:
+    dependencies:
+      '@microsoft/clarity':
+        specifier: ^1.0.0
+        version: 1.0.0
     devDependencies:
       astro:
         specifier: ^5.1.1
@@ -440,6 +444,9 @@ packages:
 
   '@jridgewell/sourcemap-codec@1.5.0':
     resolution: {integrity: sha512-gv3ZRaISU3fjPAgNsriBRqGWQL6quFx04YMPW/zD8XMLsU32mhCCbfbO6KZFLjvYpCZ8zyDEgqsgf+PwPaM7GQ==}
+
+  '@microsoft/clarity@1.0.0':
+    resolution: {integrity: sha512-2QY6SmXnqRj6dWhNY8NYCN3e53j4zCFebH4wGnNhdGV1mqAsQwql2fT0w8TISxCvwwfVp8idsWLIdrRHOms1PQ==}
 
   '@nodelib/fs.scandir@2.1.5':
     resolution: {integrity: sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g==}
@@ -2121,6 +2128,8 @@ snapshots:
     optional: true
 
   '@jridgewell/sourcemap-codec@1.5.0': {}
+
+  '@microsoft/clarity@1.0.0': {}
 
   '@nodelib/fs.scandir@2.1.5':
     dependencies:

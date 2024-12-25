@@ -1,0 +1,11 @@
+---
+interface Props {
+  enabled?: boolean;
+  projectId: string;
+}
+
+import {default as ClarityMS} from '@microsoft/clarity';
+if (Astro.props.enabled) {
+  ClarityMS.init(Astro.props.projectId);
+}
+---
