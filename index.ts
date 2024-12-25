@@ -4,3 +4,4 @@
 import Clarity from './src/Clarity.astro';
 
 export default Clarity;
+export { Clarity };
