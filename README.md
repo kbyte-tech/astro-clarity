@@ -21,12 +21,18 @@ pnpm add @kbyte-tech/astro-clarity
 
 ## Usage
 
-```astro
----
-// file: src/layouts/Layout.astro
-import Clarity from '@kbyte-tech/astro-clarity';
----
-<head>
-    <Clarity projectId="YOUR_PROJECT_ID" />
-</head>
+```js
+// file: astro.config.mjs
+import clarity from '@kbyte-tech/astro-clarity';
+
+export default defineConfig({
+  integrations: [
+    // ... other integrations
+    // Add the Clarity integration
+    clarity({
+      enabled: true,
+      projectId: 'YOUR_PROJECT_ID',
+    }),
+  ],
+});
 ```
