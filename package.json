@@ -1,19 +1,23 @@
 {
   "name": "@kbyte-tech/astro-clarity",
-  "description": "Microsoft Clarity analytics component for Astro",
+  "description": "Microsoft Clarity analytics in your Astro site",
   "author": "Kbyte Tech",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "homepage": "https://github.com/kbyte-tech/astro-clarity#readme",
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kbyte-tech/astro-clarity.git"
+  },
   "exports": {
-    ".": "./index.ts"
+    ".": "./index.ts",
+    "./package.json": "./package.json"
   },
   "files": [
-    "src",
     "index.ts"
   ],
   "keywords": [
-    "astro-component",
+    "astro-integration",
     "clarity",
     "analytics",
     "microsoft"
